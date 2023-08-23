@@ -156,3 +156,9 @@ html, body{
 .page-wrapper a:hover{
     color: #006669;
 }
+/*medaa query to deal with fixed with, columns will resize when there is an increase or decrease in width*/
+@media screen and (max-width: 768px){
+    .content{
+        flex-direction: column;
+    }
+}
