@@ -141,10 +141,14 @@ html, body{
 }
 .btn{
     padding: .5rem 1rem;
-    background: #008489;
+    background: #f08080;
     color: #fff;
     border: 1px solid transparent;
     border-radius: .25rem;
+}
+.btn:hover{
+    color: white !important;
+    background: #f08080;
 }
 .btn-big{
     padding: .7rem 1.3rem;
@@ -155,6 +159,64 @@ html, body{
 }
 .page-wrapper a:hover{
     color: #006669;
+}
+
+.content{
+    width: 90%;
+    margin: 30px auto 30px;
+   
+}
+.content .main-content{
+    width: 70%;
+    float: left;
+   
+}
+.content .main-content .recent-post-title{
+    margin: 20px;
+}
+.content .main-content .post{
+    width: 95%;
+    height: 270px;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: #855555;
+    position: relative;
+}
+.content .main-content .post .read-more{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: 1px solid #cd5c5c;
+    background: transparent;
+    border-radius: 0px;
+    color: #cd5c5c !important;
+}
+.content .main-content .post .read-more:hover{
+    background-color: #cd5c5c;
+    color: #fff !important;
+    transition: .25s;
+}
+.content .main-content .post .post-image{
+    width: 40%;
+    height:100%;
+    float: left;
+}
+.content .main-content .post .post-preview{
+    padding: 10px;
+    width: 60%;
+    float: right;
+}
+.content .sidebar{
+    width: 30%;
+    float: left;
+    border: 1px dashed green;
+    height: 300px;
+}
+
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
 }
 /*medaa query to deal with fixed with, columns will resize when there is an increase or decrease in width*/
 @media screen and (max-width: 768px){
