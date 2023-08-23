@@ -123,10 +123,16 @@ html, body{
     color: #fff;
     margin-bottom: 10px;
     line-height: 1.5rem;
-    padding: .7rem 1.2rem;
+    padding: .9rem 1.4rem;
+    border: none;
 }
 .footer .footer-content .contact-form .contact-input:focus{
     background: #1a1a1a;
+}
+.footer .footer-content .contact-form .contact-btn{
+    float: right;
+    font-size: 1.1em;
+    font-family: 'Lora'serif;
 }
 .footer .footer-bottom{
     background: #f08080;
@@ -183,6 +189,11 @@ html, body{
     float: left;
    
 }
+.content .main-content.single{
+    background: #fff;
+    padding: 20px 50px;
+    font-size: 1.1em;
+}
 .content .main-content .recent-post-title{
     margin: 20px;
 }
@@ -194,6 +205,19 @@ html, body{
     background: #855555;
     position: relative;
 }
+.content .popular .post{
+    border: 1px solid #e0e0e0;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+}
+.content .popular .post img{
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-right: 10px;
+}
+
 .content .main-content .post .read-more{
     position: absolute;
     bottom: 10px;
@@ -221,6 +245,9 @@ html, body{
 .content .sidebar{
     width: 30%;
     float: left;
+}
+.content .sidebar.single{
+    padding: 0px 10px;
 }
 .content .sidebar .section{
     background: #800000;
