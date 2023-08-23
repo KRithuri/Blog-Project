@@ -221,7 +221,6 @@ html, body{
 .content .sidebar{
     width: 30%;
     float: left;
-    height: 300px;
 }
 .content .sidebar .section{
     background: #800000;
@@ -232,7 +231,7 @@ html, body{
 .content .sidebar .section .section-title{
     margin: 10px 0px 10px 0px;
 }
-.content .sidebar .section .search{
+.content .sidebar .section.search{
     margin-top: 80px;
 }
 .content .sidebar .section.topics ul{
