@@ -139,3 +139,14 @@ html, body{
     padding-top: 20px;
     width: 100%;
 }
+.btn{
+    padding: .5rem 1rem;
+    background: #008489;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.btn-big{
+    padding: .7rem 1.3rem;
+    line-height: 1.3rem;
+}
