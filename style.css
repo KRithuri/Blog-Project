@@ -9,7 +9,7 @@ html, body{
     height: 100%;
     margin: 0px;
     padding: 0px;
-    background: #f08080;
+    background: darkcyan;
 }
 .container{
     width: 100%;
@@ -65,7 +65,7 @@ html, body{
     font-size: 15px;
 }
 .footer{
-    background: #cd5c5c;
+    background: rgb(107, 163, 163);
     color: #d3d3d3;
     height: 400px;
     position: relative;
@@ -135,7 +135,7 @@ html, body{
     font-family: 'Lora'serif;
 }
 .footer .footer-bottom{
-    background: #f08080;
+    background: darkcyan;
     color: #686868;
     height: 50px;
     text-align: center;
@@ -147,14 +147,14 @@ html, body{
 }
 .btn{
     padding: .5rem 1rem;
-    background: #f08080;
+    background: cyan;
     color: #fff;
     border: 1px solid transparent;
     border-radius: .25rem;
 }
 .btn:hover{
     color: white !important;
-    background: #f08080;
+    background: cyan;
 }
 .text-input{
     padding: .7rem 1rem;
@@ -202,7 +202,7 @@ html, body{
     height: 270px;
     margin: 20px auto;
     border-radius: 5px;
-    background: #855555;
+    background: rgb(107, 163, 163);
     position: relative;
 }
 .content .popular .post{
@@ -222,13 +222,13 @@ html, body{
     position: absolute;
     bottom: 10px;
     right: 10px;
-    border: 1px solid #cd5c5c;
+    border: 1px solid cyan;
     background: transparent;
     border-radius: 0px;
-    color: #cd5c5c !important;
+    color: cyan !important;
 }
 .content .main-content .post .read-more:hover{
-    background-color: #cd5c5c;
+    background-color: cyan;
     color: #fff !important;
     transition: .25s;
 }
@@ -250,7 +250,7 @@ html, body{
     padding: 0px 10px;
 }
 .content .sidebar .section{
-    background: #800000;
+    background: cyan;
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -292,7 +292,7 @@ time{
     color: hsl(250, 100%, 83%)
 }
 header{
-    background: #f08080;
+    background:cyan;
     height: 66px;
 }
 header ul {
